@@ -1,0 +1,46 @@
+.single-todo {
+  width: 90%;
+  height: 50px;
+  margin: 10px 5%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.single-todo-text {
+  width: 100%;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.single-todo-text input {
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgray;
+  font-size: 16px;
+}
+
+.single-todo-icons-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.single-todo-icons-box .single-todo-icon {
+  margin: 0 5px;
+}
+
+.single-todo-icons-box .single-todo-icon svg {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 756px) {
+  .single-todo {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

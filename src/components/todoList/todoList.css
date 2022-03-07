@@ -1,0 +1,28 @@
+.todos-container {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-list-name {
+  margin: 30px 0;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+
+.todos-list {
+  width: 50%;
+}
+
+@media screen and (max-width: 756px) {
+  .todo-list-name {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .todos-list {
+    width: 100%;
+  }
+}

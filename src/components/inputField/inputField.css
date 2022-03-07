@@ -1,0 +1,28 @@
+.input {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.input-submit {
+  margin-left: 15px;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+  transition: 0.2s all;
+}
+
+.input-submit:active {
+  transform: scale(0.8);
+}
